@@ -23,7 +23,7 @@
   <li>This program is for learning purposes only and should not be used for real authentication systems.</li>
 </ul>
 
-<h2>💻 Example Implementations</h2>
+<h2>💻 Example Solutions</h2>
 
 <details>
   <summary><strong>Approach 1 – While Loop with Early Exit</strong></summary>
