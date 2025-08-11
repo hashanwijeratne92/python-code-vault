@@ -16,20 +16,23 @@
 <h2>💻 Example Solutions</h2>
 
 <details>
-  <summary><strong>Approach 1 – Basic Input Validation</strong></summary>
-  <p>Checks if the input is a positive number using <code>isdigit()</code>, then performs the countdown using <code>range()</code> and <code>time.sleep()</code>.</p>
+  <summary><strong>Method 1 – Basic Countdown with Input Check</strong></summary>
+  <p>Validates the user’s entry to ensure it’s a positive digit, then runs the countdown using <code>range()</code> and <code>time.sleep()</code> for timing.</p>
 </details>
 
 <details>
-  <summary><strong>Approach 2 – Robust Input Handling</strong></summary>
-  <p>Uses <code>try-except</code> to catch invalid (non-integer) inputs and applies <code>.strip()</code> to clean up extra whitespace before processing.</p>
+  <summary><strong>Method 2 – Enhanced Countdown with Error Handling</strong></summary>
+  <p>Adds stronger input validation by wrapping the process in a <code>try-except</code> block to catch non-integer values, and applies <code>.strip()</code> to clean unwanted spaces from the user’s entry.</p>
 </details>
 
-<h3>📊 Approach Comparison</h3>
+<h3>📊 Approach Overview</h3>
 <ul>
-  <li><strong>Basic Validation:</strong> Easier to read and quick to implement.</li>
-  <li><strong>Robust Handling:</strong> More reliable, especially if the user might enter unexpected values.</li>
+  <li><strong>Basic Version:</strong> Minimal code and easy to read — good for beginners or quick scripts.</li>
+  <li><strong>Enhanced Version:</strong> More defensive programming — ideal for a polished and user-friendly tool.</li>
 </ul>
 
-<p>Choose the robust method if you want a more polished, error-proof application.</p>
+<p>If you’re aiming for a more reliable, production-style script, go with the enhanced version.</p>
 
+<h2>📌 Acknowledgments</h2>
+<p>This project challenge is inspired by <a href="https://dailypythonprojects.com" target="_blank">Daily Python Projects</a>, a platform that provides daily coding exercises to improve Python skills.</p>
+<p>All credit for the original challenge idea goes to <strong>Daily Python Projects</strong>.
