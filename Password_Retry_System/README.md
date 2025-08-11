@@ -1,6 +1,6 @@
-<h1>🔐 Password Attempt Program</h1>
+<h1>🔐 Password Retry System</h1>
 
-<h2>📝 Project Task</h2>
+<h2>📝 Project Task:</h2>
 
 <p>The program should:</p>
 <ul>
