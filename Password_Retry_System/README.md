@@ -23,3 +23,22 @@
   <li>This program is for learning purposes only and should not be used for real authentication systems.</li>
 </ul>
 
+<h2>💻 Example Implementations</h2>
+
+<details>
+  <summary><strong>Approach 1 – While Loop with Early Exit</strong></summary>
+  <p>This method uses a <code>while</code> loop and stops execution immediately when the correct password is entered using <code>break</code>.</p>
+</details>
+
+<details>
+  <summary><strong>Approach 2 – For Loop with Else Block</strong></summary>
+  <p>This version uses a <code>for</code> loop with an <code>else</code> clause, which only runs if the loop completes all attempts without hitting a <code>break</code>.</p>
+</details>
+
+<h3>📊 Side-by-Side Overview</h3>
+<ul>
+  <li><strong>While Loop Method:</strong> More step-by-step control, good for customizing the flow.</li>
+  <li><strong>For Loop Method:</strong> Shorter and makes use of Python’s loop–else feature.</li>
+</ul>
+
+<p>Both styles are correct — test them and see which feels more natural for you!</p>
