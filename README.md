@@ -6,5 +6,5 @@ A collection of small, self-contained Python projects.
 ## Quick start
 
 <h2>📌 Acknowledgments</h2>
-<p>This project challenge is inspired by <a href="https://dailypythonprojects.com" target="_blank">Daily Python Projects</a>, a platform that provides daily coding exercises to improve Python skills.</p>
+<p>This project challenge is inspired by <a href="https://dailypythonprojects.substack.com/" target="_blank">Daily Python Projects</a>, a platform that provides daily coding exercises to improve Python skills.</p>
 <p>All credit for the original challenge idea goes to <strong>Daily Python Projects</strong>. 
