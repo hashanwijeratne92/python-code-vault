@@ -25,10 +25,16 @@
   <p>Uses a loop with Python’s formatting options such as <code>:>2</code> to align numbers, producing a layout similar to traditional printed multiplication charts.</p>
 </details>
 
+<details>
+  <summary><strong>Method 3 – try-except to catch non-integer inputs</strong></summary>
+  <p>Adds more robustness by using <code>try-except</code> to catch non-integer inputs. </p>
+</details>
+
 <h3>📊 Output Style Overview</h3>
 <ul>
   <li><strong>Straightforward Approach:</strong> Minimal code and quick to understand — perfect for quick demos.</li>
   <li><strong>Aligned Layout Approach:</strong> Visually cleaner when dealing with larger numbers or multiple tables at once.</li>
+  <li><strong>Non-Integer input handling</strong> Add error handling for above methods</li>
 </ul>
 
 <p>Either style will get the job done — choose based on whether speed or presentation matters more for your needs.</p>
